@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rps.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+    <body>
+        <div class="main">
+            <div class="left">
+                <div class="left-top">You</div>
+                <div class="left-center">
+                    <div class="rock-hand" id="rock-hand">
+                        <img src = "https://github.com/daredevil17052004/rps/blob/main/assets/rock-hand.png?raw=true" alt="rock">
+                    </div>
+                    <div class="paper-hand" id="paper-hand">
+                        <img src="https://github.com/daredevil17052004/rps/blob/main/assets/paper-hand.png?raw=true" alt="paper">
+                    </div>
+                    <div class="scissor-hand" id="scissor-hand">
+                        <img src="https://github.com/daredevil17052004/rps/blob/main/assets/scissors-hand.png?raw=true" alt="scissor-hand">
+                    </div>
+                </div>
+                <div class="left-bottom" id="left-bottom">
+                    <div class="rock" id="rock">
+                        <img src="https://github.com/daredevil17052004/rps/blob/main/assets/rock-logo.png?raw=true" alt="rock">
+                    </div>
+                    <div class="paper" id="paper">
+                        <img src="https://github.com/daredevil17052004/rps/blob/main/assets/paper-logo.png?raw=true" alt="paper">
+                    </div>
+                    <div class="scissors" id="scissor">
+                        <img src="https://github.com/daredevil17052004/rps/blob/main/assets/scissors-logo.png?raw=true" alt="scissors">
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="score">
+                    <span id="playerScore"></span> - <span id="compScore"></span>
+                </div>
+                <div class="vs">
+                    <img src="https://github.com/daredevil17052004/rps/blob/main/assets/vs.png?raw=true" alt="vs" id="vs" class="vse">
+                    <div class="won" id="won">
+                        <p>You <span id="wwon"></span>
+                        the Game</p> 
+                        <br>
+                        <button type="button" id="playAgain"><p>Play Again</p></button>
+                    
+                </div>
+
+                
+                </div>
+            </div>
+            <div class="right">
+                <div class="right-top">Comp</div>
+                <div class="right-bottom" id="computer"></div>
+            </div>
+        </div>
+            
+    </div>
+
+    </body>
+    <script src="rps.js"></script>
+
+</html>

@@ -1,0 +1,104 @@
+body{
+    background-image: url("https://github.com/daredevil17052004/rps/blob/main/assets/bg.png?raw=true");
+    color: white;
+    font-family: Poppins;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.score{
+    font-size: 90px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    width: 450px;
+    border: 2px solid #ffc434;
+}
+
+.left-bottom{
+    display: flex;
+    justify-content: space-around   ;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 450px;
+    border: 2px solid #ffc434;
+}
+
+.left-top{
+    text-align: center;
+    font-size: 35px;
+}
+
+.right-top{
+    text-align: center;
+    font-size: 35px;
+}
+
+.rock img{
+    height: 90px;
+}
+
+.scissors img{
+    height: 90px;
+}
+.paper img{
+    height: 90px;
+}
+
+#rock-hand{
+    position:absolute;
+    z-index: 1;
+    top: 260px;
+    width: 300px;
+    visibility: hidden;
+}
+#paper-hand{
+    position: absolute;
+    z-index: 2;
+    top: 260px;
+    width: 300px;
+    visibility: hidden;
+}
+
+#scissor-hand{
+    position: absolute;
+    z-index: 3;
+    top: 260px;
+    width: 300px;
+}
+
+
+button{
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #ffc434;
+    font-size: 10px;
+}
+
+.won{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+button p{
+    font-size: 15px;
+    font-weight: bold;
+}

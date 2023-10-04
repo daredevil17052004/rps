@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://github.com/daredevil17052004/rps/blob/main/assets/bg.png?raw=true");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Poppins;
+    font-weight: bolder;
+}
+
+.content{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.right-cont img{
+    height: 40px;
+}
+
+.left-cont{
+    padding-left: 50px;
+}
+
+.heading{
+    margin-top: 40px;
+    color: rgb(90, 37, 192);
+    font-size: 60px;
+    text-align: center;
+}
+
+.right-cont{
+    color: white;
+    padding-left: 200px;
+    padding-top: 500px;
+    font-size: 40px;
+}
